@@ -1,0 +1,17 @@
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\RythemGameConverter.exe
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\RythemGameConverter.deps.json
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\RythemGameConverter.runtimeconfig.json
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\RythemGameConverter.dll
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\RythemGameConverter.pdb
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.csproj.AssemblyReference.cache
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.GeneratedMSBuildEditorConfig.editorconfig
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.AssemblyInfoInputs.cache
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.AssemblyInfo.cs
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.csproj.CoreCompileInputs.cache
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.csproj.CopyComplete
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.dll
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\refint\RythemGameConverter.dll
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.pdb
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\RythemGameConverter.genruntimeconfig.cache
+G:\HikanyanProduction\RythemGameConverter\RythemGameConverter\RythemGameConverter\obj\Debug\net6.0\ref\RythemGameConverter.dll
