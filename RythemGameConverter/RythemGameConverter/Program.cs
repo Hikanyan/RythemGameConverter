@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
@@ -26,6 +27,7 @@ class Program
     {
         // テキストファイルを読み込んでJSONオブジェクトに変換する
         var json = ConvertTextToJson(inputFilePath);
+
         // 参考にしたテキストファイルと同じ場所にJSONファイルを作成する
         string outputFilePath = Path.ChangeExtension(inputFilePath, ".json");
 
@@ -49,30 +51,40 @@ class Program
                 switch (key)
                 {
                     case "TITLE":
+                        value = RemoveQuotationMarks(value);
                         json["title"] = value;
                         break;
                     case "ARTIST":
+                        value = RemoveQuotationMarks(value);
                         json["artist"] = value;
                         break;
                     case "DESIGNER":
+                        value = RemoveQuotationMarks(value);
                         json["designer"] = value;
                         break;
                     case "DIFFICULTY":
                         json["difficulty"] = Convert.ToInt32(value);
                         break;
                     case "PLAYLEVEL":
-                        json["playLevel"] = Convert.ToInt32(value);
+                        value = RemoveQuotationMarks(value);
+                        json["playLevel"] = value;
                         break;
                     case "SONGID":
+                        value = RemoveQuotationMarks(value);
                         json["songId"] = value;
+                        //SongIDがintで良い場合
+                        //json["songId"] = Convert.ToInt32(value);
                         break;
-                    case "WAVE":
-                        json["wave"] = value;
-                        break;
+                    //今回はCRIを使用するためWAVEは使用しない
+                    //case "WAVE":
+                    //    value = RemoveQuotationMarks(value);
+                    //    json["wave"] = value;
+                    //    break;
                     case "WAVEOFFSET":
-                        json["waveOffset"] = Convert.ToInt32(value);
+                        json["offset"] = Convert.ToInt32(value);
                         break;
                     case "JACKET":
+                        value = RemoveQuotationMarks(value);
                         json["jacket"] = value;
                         break;
                     default:
@@ -80,6 +92,15 @@ class Program
                 }
             }
         }
+        Debug.WriteLine(json);
         return json;
     }
+
+    //入力値に"が入るのでそれを取り除く
+    static string RemoveQuotationMarks(string input)
+    {
+        return input.Trim('"');
+    }
 }
+
+
