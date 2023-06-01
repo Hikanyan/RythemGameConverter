@@ -27,6 +27,7 @@ class Program
     {
         // テキストファイルを読み込んでJSONオブジェクトに変換する
         var json = ConvertTextToJson(inputFilePath);
+
         // 参考にしたテキストファイルと同じ場所にJSONファイルを作成する
         string outputFilePath = Path.ChangeExtension(inputFilePath, ".json");
 
@@ -95,8 +96,11 @@ class Program
         return json;
     }
 
+    //入力値に"が入るのでそれを取り除く
     static string RemoveQuotationMarks(string input)
     {
         return input.Trim('"');
     }
 }
+
+
